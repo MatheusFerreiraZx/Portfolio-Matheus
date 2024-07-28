@@ -5,6 +5,11 @@ const About = () => {
   return (
     <div className="max-w-3xl mx-auto">
       <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-4">Skills</h2>
+        <Skills />
+      </section>
+
+      <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-text-secondary mb-4">
           I'm a Brazilian Software Engineer specializing in iOS App Development
@@ -29,46 +34,7 @@ const About = () => {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Skills</h2>
-        <Skills />
-      </section>
-
-      <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Work Experience</h2>
-        <div className="mb-6">
-          <h3 className="text-xl font-semibold mb-2">PETSHOP SYSTEM</h3>
-          <h4 className="text-lg">iOS Developer</h4>
-          <p className="text-sm text-text-secondary">2024 - Present</p>
-          <p className="mt-2">
-            <ul class="list-disc pl-5">
-              <li>
-                Develop and enhance two pivotal applications for pet shop
-                management: one in UIKit catering to clients and another in
-                SwiftUI tailored for employees.
-              </li>
-              <li>
-                Ensure a seamless and intuitive experience for clients,
-                facilitating service scheduling, product purchases, and
-                effortless navigation.
-              </li>
-              <li>
-                Focus on operational efficiency through the SwiftUI app,
-                furnishing tools for scheduling management, product inventory,
-                and internal communication.
-              </li>
-              <li>
-                Continuously integrate with the pet-shop's core system,
-                developed in Java and leveraging technologies like Redis, Kafka,
-                and GoLang, to ensure seamless interoperability.
-              </li>
-              <li>
-                Proactively maintain the robustness and performance of iOS
-                applications, leveraging observability tools and ensuring a
-                fluid experience for both clients and employees.
-              </li>
-            </ul>
-          </p>
-        </div>
         <div className="mb-6">
           <h3 className="text-xl font-semibold mb-2">BEMOBI</h3>
           <h4 className="text-lg">Software Engineer</h4>
