@@ -14,6 +14,14 @@ const Skills = () => {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg",
     },
     {
+      skill: "Dart",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg",
+    },
+    {
+      skill: "Flutter",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
+    },
+    {
       skill: "TypeScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
     },
@@ -24,6 +32,10 @@ const Skills = () => {
     {
       skill: "Next.js",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    },
+    {
+      skill: "Golang",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg",
     },
     {
       skill: "Java",
@@ -38,12 +50,24 @@ const Skills = () => {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kibana/kibana-original-wordmark.svg",
     },
     {
-      skill: "SQL",
+      skill: "PostgreSQL",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
     },
     {
       skill: "AWS",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    },
+    {
+      skill: "Docker",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+    },
+    {
+      skill: "Git",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+    },
+    {
+      skill: "Figma",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
     },
   ];
 

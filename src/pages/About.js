@@ -5,11 +5,6 @@ const About = () => {
   return (
     <div className="max-w-3xl mx-auto">
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Skills</h2>
-        <Skills />
-      </section>
-
-      <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-text-secondary mb-4">
           I'm a Brazilian Software Engineer specializing in iOS App Development
@@ -34,6 +29,11 @@ const About = () => {
       </section>
 
       <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-4">Skills</h2>
+        <Skills />
+      </section>
+
+      <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Work Experience</h2>
         <div className="mb-6">
           <h3 className="text-xl font-semibold mb-2">BEMOBI</h3>
@@ -42,42 +42,36 @@ const About = () => {
           <p className="mt-2">
             <ul class="list-disc pl-5">
               <li>
-                Develop and enhance high-impact applications used by over 100
-                million users.
+                High-Impact Applications: Contributed to the development and
+                enhancement of applications used by over 100 million users, with
+                a focus on delivering seamless, user-friendly experiences.
               </li>
               <li>
-                Participate in the development of a user-friendly web
-                application for bill payments, ensuring a smooth user
-                experience.
+                iOS Expertise: Leveraged Swift, UIKit, and SwiftUI to improve
+                and maintain iOS applications, ensuring high performance and
+                user satisfaction.
               </li>
               <li>
-                Design and develop Progressive Web Apps (PWAs) to deliver a
-                mobile-like experience for Brazilian telephone operators,
-                optimizing user interaction.
+                PWA Development: Designed and built Progressive Web Apps (PWAs)
+                for Brazilian telecom operators, delivering a mobile-like
+                experience that optimized user interaction.
               </li>
               <li>
-                Demonstrate strong coding skills by migrating legacy application
-                templates to a modern framework (React JS), improving code
-                maintainability and efficiency.
+                Feature Integration: Successfully integrated complex features,
+                such as mobile recharge within the TikTok app, through
+                collaboration with external telecom partners, enhancing
+                functionality and user engagement.
               </li>
               <li>
-                Collaborate effectively with external partners (telecom
-                operators) to integrate a complex feature (mobile recharge)
-                within the TikTok app, enhancing user functionality.
+                Mentorship & Team Collaboration: Guided new interns and
+                supported their onboarding, while actively participating in
+                Scrum and Kanban processes, contributing to task management and
+                team communication.
               </li>
               <li>
-                Maintain the health and performance of critical applications by
-                utilizing observability tools, ensuring a positive user
-                experience.
-              </li>
-              <li>
-                Teach new interns and support them in their initial tasks.
-              </li>
-              <li>
-                Participate in the agile methodology adaptation process, using
-                both Scrum and Kanban, scoring tasks, participating in
-                refinements and reviews, and communicating with the product
-                team.
+                Performance & Observability: Utilized observability tools to
+                monitor and maintain application health, ensuring a consistently
+                positive user experience.
               </li>
             </ul>
           </p>
