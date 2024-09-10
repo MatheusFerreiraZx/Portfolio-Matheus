@@ -102,6 +102,13 @@ const Projects = () => {
       alt: "Petshop System",
     },
     {
+      title: "Tiktok App",
+      description:
+        "I participated in a project that implemented a possibility to buy telecom credits inside the Tiktok App. In this project I colaborated with the TikTok Developers team.",
+      demoLink: "https://www.tiktok.com/",
+      tags: ["Mobile", "iOS", "Frontend"],
+    },
+    {
       title: "Energisa Website",
       description:
         "Energisa is a eletric company in Brazil, this project is a website for the company and allow bill payments via PIX. I was part of the frontend team, reposible for the web and mobile version of the website.",
